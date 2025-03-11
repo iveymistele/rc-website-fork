@@ -128,8 +128,8 @@ private = true
       </div>
 
       <div id="storage-mygroups-group-container" style="display: none;">
-          <label for="storage-mygroups-group">Storage Grouper/MyGroups Account *</label>
-          <select id="storage-mygroups-group" class="form-control" required>
+          <label for="storage-mygroups-group-old">Storage Grouper/MyGroups Account *</label>
+          <select id="storage-mygroups-group-old" class="form-control" required>
               <option value="">- Select a group -</option>
           </select>
       </div>
@@ -157,7 +157,7 @@ private = true
       </div>
 
       <!-- Existing Projects for Service Units (Only visible for Renewal) -->
-      <div id="existing-projects-allocation" style="display: none; margin-top:1em;">
+      <div id="existing-projects-allocation" style="display:none; margin-top:1em;">
         <fieldset>
           <legend class="control-label h6 mb-2">Your Existing Service Units</legend>
           <table class="table table-bordered table-hover">
